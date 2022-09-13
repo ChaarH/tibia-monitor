@@ -9,18 +9,6 @@ const router = Router();
 
 router.get("/", async (_, res) => {
     try {
-        // const infoChars = charsMock.map(async (char) => {
-        //     const {
-        //         data: {
-        //             characters: { character },
-        //         },
-        //     } = await axios.get(
-        //         `https://api.tibiadata.com/v3/character/${char}`
-        //     );
-
-        //     return await character;
-        // });
-
         let chars: any = [];
 
         for (let x in charsMock) {

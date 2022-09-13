@@ -1,5 +1,5 @@
 {
-  "name": "tibia-observer",
+  "name": "tibia-monitor",
   "version": "1.0.0",
   "description": "Script monitorar chars no Tibia",
   "main": "index.ts",
