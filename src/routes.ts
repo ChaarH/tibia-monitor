@@ -70,4 +70,4 @@ router.get("/", async (_, res) => {
     }
 });
 
-export { router };
+module.exports = router;
